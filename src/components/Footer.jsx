@@ -19,7 +19,7 @@ function Footer() {
       <div className="relative h-112.5 md:h-125 flex flex-col items-center justify-center text-center px-4">
         {/* Background Image */}
         <Image
-          src={footerBg}
+          src={footerBg}  
           alt="Footer Background"
           fill 
           className="object-cover object-center"
@@ -174,6 +174,7 @@ function Footer() {
             <li>Mumbai , India</li>
           </ul>
         </div>
+        
       </div>
 
       {/* Bottom Bar */}

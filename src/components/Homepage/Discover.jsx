@@ -6,7 +6,8 @@ import Image from 'next/image'
 
 function Discover() {
   return (
-    <section className='h-screen flex items-center'>
+       <section className='min-h-screen flex flex-col md:flex-row items-center justify-center py-12'>
+
         <div className="flex flex-col md:flex-row items-center justify-between container mx-auto py-12 px-4 sm:px-6 lg:px-8 gap-8">
 
            <div>

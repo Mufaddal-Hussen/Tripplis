@@ -26,12 +26,12 @@ function Header() {
               <div>
                 <ul className="menu menu-horizontal px-1 gap-2">
                   <li>
-                    <Link href='#' className='hover:text-[#00BFA6] active:bg-transparent'>
+                    <Link href='#' className=' hover:text-[#00BFA6] active:bg-transparent'>
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link href='#' className='hover:text-[#00BFA6] active:bg-transparent'>
+                    <Link href='#' className='hover:text-[#00BFA6] active:bg-transparent' >
                       About us
                     </Link>
                   </li>
@@ -97,27 +97,27 @@ function Header() {
           
           {/* Mobile Menu Items */}
           <li>
-            <Link href='#' className='hover:text-[#00BFA6] text-lg py-3'>
+            <Link href='#' className= ' hover:text-[#00BFA6] active:bg-transparent text-lg py-3'>
               Home
             </Link>
           </li>
           <li>
-            <Link href='#' className='hover:text-[#00BFA6] text-lg py-3'>
+            <Link href='#' className='hover:text-[#00BFA6] active:bg-transparent  text-lg py-3'>
               About us
             </Link>
           </li>
           <li>
-            <Link href='#' className='hover:text-[#00BFA6] text-lg py-3'>
+            <Link href='#' className='hover:text-[#00BFA6] active:bg-transparent  text-lg py-3'>
               Services
             </Link>
           </li>
           <li>
-            <Link href='#' className='hover:text-[#00BFA6] text-lg py-3'>
+            <Link href='#' className='hover:text-[#00BFA6] active:bg-transparent  text-lg py-3'>
               Blog
             </Link>
           </li>
           <li>
-            <Link href='#' className='hover:text-[#00BFA6] text-lg py-3'>
+            <Link href='#' className='hover:text-[#00BFA6] active:bg-transparent  text-lg py-3'>
               Countries
             </Link>
           </li>

@@ -11,6 +11,7 @@ export const TopHeader = () => {
         <div className="flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0">
           {/* Left side - Contact Info */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-8 items-center">
+            
             {/* Phone */}
             <div className="flex items-center gap-2">
               <Image src={phone} alt="Phone Icon" height={16} width={16} className="opacity-70"/>
@@ -22,6 +23,7 @@ export const TopHeader = () => {
               <Image src={email} alt="Email Icon" height={16} width={16} className="opacity-70"/>
               <span className="text-xs sm:text-sm">info@tripplis.com</span>
             </div>
+
           </div>
 
           {/* Right side - Login */}
